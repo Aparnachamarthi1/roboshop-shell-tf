@@ -4,11 +4,11 @@ Description=Payment Service
 [Service]
 User=root
 WorkingDirectory=/app
-Environment=CART_HOST=172.31.45.135
+Environment=CART_HOST=cart.app.chamarthiaparna.online
 Environment=CART_PORT=8080
-Environment=USER_HOST=172.31.38.190
+Environment=USER_HOST=user.app.chamarthiaparna.online
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=172.31.34.174
+Environment=AMQP_HOST=rabbitmq.app.chamarthiaparna.online
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
