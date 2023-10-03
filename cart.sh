@@ -62,7 +62,7 @@ VALIDATE $? "installing dependencies"
 
 #   give full path of cart.service because we are inside /app
 
-cp /home/centos/roboshop-shell/cart.service /etc/systemd/system/cart.service &>>$LOGFILE
+cp /home/centos/roboshop-shell-tf/cart.service /etc/systemd/system/cart.service &>>$LOGFILE
 
 VALIDATE $? "copying cart.services"
 
