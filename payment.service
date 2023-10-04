@@ -8,7 +8,7 @@ Environment=CART_HOST=cart.app.chamarthiaparna.online
 Environment=CART_PORT=80
 Environment=USER_HOST=user.app.chamarthiaparna.online
 Environment=USER_PORT=80
-Environment=AMQP_HOST=rabbitmq.app.chamarthiaparna.online
+Environment=AMQP_HOST=rabbitmq.chamarthiaparna.online
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
